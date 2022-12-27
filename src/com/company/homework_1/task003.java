@@ -3,7 +3,7 @@
 package com.company.homework_1;
 import java.util.Scanner;
 
-public class task003 {
+public class Task003 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("Enter the first number:");
@@ -28,6 +28,8 @@ public class task003 {
         if (act.equals("+")) System.out.printf("%d + %d = %d", num1, num2, num1 + num2);
         else if (act.equals("-")) System.out.printf("%d - %d = %d", num1, num2, num1 - num2);
         else if (act.equals("*")) System.out.printf("%d * %d = %d", num1, num2, num1 * num2);
-        else System.out.printf("%d / %d = %d", num1, num2, num1 / num2);
+        else if (act.equals("/") && num2 != 0) System.out.printf("%d / %d = %d", num1, num2, num1 / num2);
+        else if (act.equals("/") && num2 == 0) System.out.println("На ноль делить нельзя!");
+        else System.out.println("Вы ввели некорректное выражение!");
     }
 }
