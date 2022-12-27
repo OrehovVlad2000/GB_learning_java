@@ -4,7 +4,7 @@ package com.company.homework_1;
 
 import java.util.Arrays;
 
-public class task002 {
+public class Task002 {
     public static void main(String[] args) {
         for (int i = 2; i < 1000; ++i) {
             int k = 0;
