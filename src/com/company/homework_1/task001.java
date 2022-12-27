@@ -3,7 +3,7 @@
 package com.company.homework_1;
 import java.util.Scanner;
 
-public class task001 {
+public class Task001 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("Enter a number:");
