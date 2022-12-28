@@ -1,6 +1,6 @@
 //Вывести все простые числа от 1 до 1000
 
-package com.company.homework_1;
+package homework_1;
 
 import java.util.Arrays;
 

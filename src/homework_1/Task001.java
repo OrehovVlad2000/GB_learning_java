@@ -1,6 +1,6 @@
 //Вычислить n-ое треугольного число(сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
 
-package com.company.homework_1;
+package homework_1;
 import java.util.Scanner;
 
 public class Task001 {

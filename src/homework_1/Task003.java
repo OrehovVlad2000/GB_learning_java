@@ -1,6 +1,6 @@
 //Реализовать простой калькулятор
 
-package com.company.homework_1;
+package homework_1;
 import java.util.Scanner;
 
 public class Task003 {
