@@ -9,7 +9,7 @@ public class Task002 {
     public static void main(String[] args) throws IOException {
         int[] array = {1, 7, -3, 9, 0, -67, 34, 12, 45, 1000, 6, 8, -2, 99};
         Logger logger = Logger.getLogger(Task002.class.getName());
-        FileHandler fh = new FileHandler("D:/IT/GeekBrains/ДЗ/GB_learning_java/src/com/company/homework_2/sortLog.xml");
+        FileHandler fh = new FileHandler("GB_learning_java/src/com/company/homework_2/sortLog.xml");
         int len = array.length;
         for (int i = 0; i < len - 1; i++) {
             for (int j = 0; j < len - i - 1; j++) {
