@@ -9,7 +9,7 @@ public class Notebook {
     String[] fields = {"Производитель", "Модель", "Экран", "ОЗУ", "Объем ЖД", "ОС", "Цвет", "Цена"};
 
     public void readFile() throws FileNotFoundException {
-        File database = new File("D:/IT/GeekBrains/ДЗ/GB_learning_java/src/homework_6/database.txt");
+        File database = new File("GB_learning_java/src/homework_6/database.txt");
         Scanner scanner = new Scanner(database);
         while (scanner.hasNextLine()) {
             String[] temp = scanner.nextLine().split(" / ");
